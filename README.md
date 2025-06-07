@@ -54,7 +54,7 @@ Sentiment_Analysis_Group12/
 ## Setup & Execution
 #### **Clone the repository**
 ```
-   git clone https://github.com/yourusername/Sentiment_Analysis_Group12.git
+git clone https://github.com/yourusername/Sentiment_Analysis_Group12.git
 cd Sentiment_Analysis_Group12
 ```
 #### **Quick Start**
