@@ -36,17 +36,22 @@ This project implements two different models to classify movie reviews as positi
 - **Visualization**: matplotlib, seaborn, wordcloud
 - **Text Processing**: BeautifulSoup, NLTK tokenizers
 
-## Project Structure
-
-```
+## Project Structure  
+```bash
+Sentiment_Analysis_Group12/
 ├── dataset/
-│   └── IMDB Dataset.csv
-├── sentiment_analysis.ipynb
-├── scripts/
-│   └── ...
-└── README.md
-```
-
+│   └── IMDB Dataset.csv          # Raw dataset (50K movie reviews)
+├── models/
+│   ├── best_logistic_regression.joblib  # Trained Logistic Regression model
+│   ├── best_lstm_model.keras            # Trained LSTM model (Keras)
+│   ├── tfidf_vectorizer.joblib          # Saved TF-IDF vectorizer
+│   ├── lstm_tokenizer.pickle            # Tokenizer for LSTM input
+│   └── tokenizer.pickle                 # Backup tokenizer
+├── notebooks/
+│   ├── sentiment_analysis.ipynb         # Initial EDA/preprocessing
+│   └── sentiment_analysis_2.ipynb       # Model training/evaluation
+└── README.md                            # This file
+``` 
 ## Quick Start
 
 1. Install required packages:
