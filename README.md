@@ -39,12 +39,11 @@ This project implements two different models to classify movie reviews as positi
 ## Project Structure
 
 ```
-├── data/
+├── dataset/
 │   └── IMDB Dataset.csv
-├── notebooks/
-│   └── sentiment_analysis.ipynb
-├── results/
-│   └── lr_experiment_results.csv
+├── sentiment_analysis.ipynb
+├── scripts/
+│   └── ...
 └── README.md
 ```
 
