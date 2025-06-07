@@ -48,11 +48,16 @@ Sentiment_Analysis_Group12/
 │   ├── lstm_tokenizer.pickle            # Tokenizer for LSTM input
 │   └── tokenizer.pickle                 # Backup tokenizer
 ├── notebooks/
-│   ├── sentiment_analysis.ipynb         # Initial EDA/preprocessing
-│   └── sentiment_analysis_2.ipynb       # Model training/evaluation
+│   ├── sentiment_analysis.ipynb         # EDA/preprocessing and All Trainings
 └── README.md                            # This file
-``` 
-## Quick Start
+```
+## Setup & Execution
+#### **Clone the repository**
+```
+   git clone https://github.com/yourusername/Sentiment_Analysis_Group12.git
+cd Sentiment_Analysis_Group12
+```
+#### **Quick Start**
 
 1. Install required packages:
 ```bash
@@ -66,7 +71,6 @@ nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 ```
-
 3. Run the notebook or script to train both models
 
 ## Key Insights
